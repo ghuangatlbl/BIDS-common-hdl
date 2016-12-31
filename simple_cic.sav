@@ -1,0 +1,25 @@
+[timestart] 0
+[size] 1270 619
+[pos] 0 23
+*-6.000000 2399 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] simple_cic_tb.
+[sst_width] 210
+[signals_width] 205
+[sst_expanded] 1
+[sst_vpaned_height] 161
+@28
+simple_cic_tb.reset
+simple_cic_tb.g_in
+simple_cic_tb.g_out
+@420
+simple_cic_tb.d_in[15:0]
+simple_cic_tb.d_out[17:0]
+@200
+-dut
+@420
+simple_cic_tb.dut.int1[17:0]
+simple_cic_tb.dut.prev_int1[17:0]
+@24
+simple_cic_tb.dut.count[3:0]
+[pattern_trace] 1
+[pattern_trace] 0

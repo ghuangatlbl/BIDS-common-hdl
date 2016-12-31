@@ -1,0 +1,21 @@
+[timestart] 41979
+[size] 1189 636
+[pos] 631 28
+*-6.362698 42140 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] rx_buffer_tb.
+@28
+rx_buffer_tb.ssb
+@22
+rx_buffer_tb.src[15:0]
+@28
+rx_buffer_tb.usb_rdy1
+rx_buffer_tb.ctl1
+rx_buffer_tb.rx_overrun
+@22
+rx_buffer_tb.usb_data[15:0]
+@29
+rx_buffer_tb.in_packet
+@28
+rx_buffer_tb.usbclk
+[pattern_trace] 1
+[pattern_trace] 0

@@ -1,0 +1,20 @@
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*-8.859011 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] piloop2_tb.
+@28
+piloop2_tb.pi1.strobe_in
+piloop2_tb.pi1.strobe_1
+piloop2_tb.pi1.pd_done
+piloop2_tb.pi1.pdl_done
+piloop2_tb.pi1.notch_done
+piloop2_tb.pi1.mult_str
+piloop2_tb.pi1.mult_done
+@29
+piloop2_tb.pi1.integ_set
+@28
+piloop2_tb.pi1.out_set
+piloop2_tb.pi1.strobe_out
+[pattern_trace] 1
+[pattern_trace] 0

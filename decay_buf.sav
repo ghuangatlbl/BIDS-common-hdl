@@ -1,0 +1,49 @@
+[timestart] 0
+[size] 1440 608
+[pos] 2 2
+*-12.207594 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] decay_buf_tb.
+[sst_width] 210
+[signals_width] 158
+[sst_expanded] 1
+[sst_vpaned_height] 157
+@22
+decay_buf_tb.d_in[15:0]
+@28
+decay_buf_tb.stb_in
+decay_buf_tb.boundary
+decay_buf_tb.trig
+@22
+decay_buf_tb.stamp_in[3:0]
+decay_buf_tb.read_addr[5:0]
+@24
+decay_buf_tb.frame[31:0]
+@22
+decay_buf_tb.d_out[15:0]
+@28
+decay_buf_tb.mismatch
+decay_buf_tb.fault
+decay_buf_tb.odata_val
+@200
+-source logic
+@28
+decay_buf_tb.dut.source_ok
+decay_buf_tb.dut.pend
+decay_buf_tb.dut.run
+@22
+decay_buf_tb.dut.write_addr[5:0]
+@28
+decay_buf_tb.dut.end_write_addr
+decay_buf_tb.dut.wbank
+@22
+decay_buf_tb.dut.stamp_latch[3:0]
+@200
+-readout logic
+@28
+decay_buf_tb.dut.flag_send_x
+decay_buf_tb.dut.end_read_addr
+decay_buf_tb.dut.rbank
+@22
+decay_buf_tb.dut.stamp_read[3:0]
+[pattern_trace] 1
+[pattern_trace] 0

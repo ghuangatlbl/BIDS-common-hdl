@@ -1,0 +1,23 @@
+[timestart] 503
+[size] 1000 600
+[pos] 87 65
+*-2.614109 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] slew_tb.
+@24
+slew_tb.cc[31:0]
+slew_tb.in_set[4:0]
+@28
+slew_tb.enable
+slew_tb.tick
+@24
+slew_tb.out_val[4:0]
+slew_tb.motion
+@28
+slew_tb.dut.dir
+slew_tb.dut.match
+@421
+slew_tb.check_diff[4:0]
+@28
+slew_tb.fault1
+[pattern_trace] 1
+[pattern_trace] 0

@@ -1,0 +1,62 @@
+[timestart] 0
+[size] 1280 984
+[pos] -1 -1
+*-17.000000 124500 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] circle_buf4_tb.
+[treeopen] circle_buf4_tb.dut.
+[sst_width] 236
+[signals_width] 289
+[sst_expanded] 1
+[sst_vpaned_height] 276
+@22
+circle_buf4_tb.errors[31:0]
+circle_buf4_tb.data_r[15:0]
+circle_buf4_tb.temp0[15:0]
+circle_buf4_tb.temp1[15:0]
+@200
+-
+@28
+circle_buf4_tb.dut.r_bank
+@22
+circle_buf4_tb.dut.r_addr[5:0]
+@24
+circle_buf4_tb.dut.r_state[2:0]
+@28
+circle_buf4_tb.dut.stb_r
+@22
+circle_buf4_tb.dut.addr_start0[5:0]
+circle_buf4_tb.dut.addr_start1[5:0]
+@200
+-
+@22
+circle_buf4_tb.dut.w_addr[5:0]
+@24
+circle_buf4_tb.dut.w_state[2:0]
+@28
+[color] 2
+circle_buf4_tb.dut.w_bank
+@22
+circle_buf4_tb.dut.data_w[15:0]
+@28
+[color] 2
+circle_buf4_tb.dut.triggered
+circle_buf4_tb.dut.w_swap
+circle_buf4_tb.dut.trig
+@22
+circle_buf4_tb.dut.data_cnt[5:0]
+@200
+-
+@28
+[color] 1
+circle_buf4_tb.dut.trig_internal_ena
+@200
+-
+@28
+[color] 2
+circle_buf4_tb.dut.rclk
+[color] 1
+circle_buf4_tb.dut.wclk
+@200
+-
+[pattern_trace] 1
+[pattern_trace] 0

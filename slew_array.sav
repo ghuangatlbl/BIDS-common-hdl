@@ -1,0 +1,46 @@
+[timestart] 0
+[size] 1047 629
+[pos] 278 61
+*-6.455246 295 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] slew_array_tb.
+@28
+slew_array_tb.h_write
+slew_array_tb.tick
+@24
+slew_array_tb.out_val[4:0]
+@28
+slew_array_tb.enable
+@200
+-slew_array
+@24
+slew_array_tb.dut.h_addr[1:0]
+@28
+slew_array_tb.dut.run
+@24
+slew_array_tb.dut.count[1:0]
+slew_array_tb.dut.goal[4:0]
+@28
+slew_array_tb.dut.run1
+@200
+-stage 1
+@24
+slew_array_tb.dut.diff[5:0]
+slew_array_tb.dut.goal1[4:0]
+slew_array_tb.dut.oldv1[4:0]
+@200
+-stage2
+@28
+slew_array_tb.dut.match
+slew_array_tb.dut.dir
+@24
+slew_array_tb.dut.oldv2[4:0]
+slew_array_tb.dut.goal2[4:0]
+@200
+-state write
+@28
+slew_array_tb.dut.run2
+@24
+slew_array_tb.dut.count2[1:0]
+slew_array_tb.dut.nextv[4:0]
+[pattern_trace] 1
+[pattern_trace] 0

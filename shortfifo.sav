@@ -1,0 +1,23 @@
+[timestart] 1066
+[size] 1000 600
+[pos] -3 0
+*-5.806706 50 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] shortfifo_tb.
+[sst_width] 210
+[signals_width] 246
+[sst_expanded] 1
+[sst_vpaned_height] 154
+@22
+shortfifo_tb.din[7:0]
+@28
+shortfifo_tb.we
+shortfifo_tb.re
+@22
+shortfifo_tb.dout[7:0]
+@28
+shortfifo_tb.full
+shortfifo_tb.empty
+@25
+shortfifo_tb.dut.raddr[2:0]
+[pattern_trace] 1
+[pattern_trace] 0

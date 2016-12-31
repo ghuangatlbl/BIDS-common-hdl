@@ -1,0 +1,46 @@
+Circular (fault and comfort) buffer handling for APEX
+
+Waveform buffers are acquired on the FPGA and transmitted
+to the host computer to support both operator comfort displays,
+and a record of fault conditions including pre-trigger data.
+
+The Verilog module that implements this is in circle_buf.v.
+Current configuration is 8192 words of 16 bits, double buffered,
+subdivided into 1024 time samples of 4 RF waveforms, each with
+an I and Q component.  That subdivision is invisible to the
+circle_buf module, it simply gets clumps of 8 data words that
+are declared indivisible.
+
+The 16-bit output status word "buf_stat" includes the fault bit,
+and (if set) the last valid location.  The fault bit can be read
+in the data stream: in the lower byte of word 14 in the stream,
+when the address (lower byte of word 15 in the stream) is 0x18 (msb)
+and 0x19 (lsb).  This location is subject to change, and general
+software may even make it run-time configurable.
+
+That 16-bit word has, as its most significant bit, "record_type"
+where 0 means fault, and 1 means comfort display.  When fault
+is zero, the lower 13 bits of the word are the address of the
+buffer boundary.  Words at and beyond this address are stale
+and should not be considered.  To get the last 1024 words leading
+up to the fault event, combine the previous comfort buffer with
+the words of the current fault buffer up to but not including
+this address.
+
+After a fault, comfort display buffers (record type=1) will continue
+to flow, but will presumably show mostly (nearly) zero until the RF
+is turned back on.  The fault buffer created as described the
+previous paragraph should still be visible to the operators, maybe
+with a fault counter to give a clear indication of when it has been
+updated with a new set of data.
+
+In the data stream as currently programmed, the 8192 words of
+buffer show up as words 0 through 7 in each data frame, therefore
+occupying 1024 frames, also known as four pages.  The 8-bit frame
+address mentioned before forms part of this addressing, but two
+more bits need to be inferred from the higher order counter bits
+encoded in the data stream; more general software should have
+already decoded that information.
+
+In the Verilog source tree, "make circle_buf_view" will show
+some of the intended behavior.

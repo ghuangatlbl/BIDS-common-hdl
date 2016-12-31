@@ -1,0 +1,75 @@
+[timestart] 24912000
+[size] 1264 1372
+[pos] -1 -1
+*-17.980478 25638000 3057 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] circle_buf_tb.
+[treeopen] circle_buf_tb.dut.
+[sst_width] 232
+[signals_width] 255
+[sst_expanded] 1
+[sst_vpaned_height] 939
+@200
+-trigger
+@28
+circle_buf_tb.dut.trig_ext
+circle_buf_tb.dut.trig_internal
+@22
+circle_buf_tb.trigger_location[5:0]
+circle_buf_tb.dut.trig_missed[15:0]
+@200
+-write
+@28
+circle_buf_tb.stb_w
+@24
+circle_buf_tb.data_w[15:0]
+@200
+-read
+@28
+circle_buf_tb.stb_r
+@24
+circle_buf_tb.dut.data_r[15:0]
+@28
+circle_buf_tb.dut.data_gate
+@22
+circle_buf_tb.dut.buf_count[15:0]
+@200
+-tb
+@420
+circle_buf_tb.data_read[15:0]
+@20000
+-
+-
+@28
+circle_buf_tb.odata_val
+@24
+circle_buf_tb.frame[31:0]
+@200
+-w_fsm
+@28
+circle_buf_tb.dut.trigger
+@22
+circle_buf_tb.dut.w_addr_cnt[5:0]
+circle_buf_tb.dut.w_addr[5:0]
+circle_buf_tb.dut.w_addr_start[5:0]
+circle_buf_tb.dut.w_addr_end[5:0]
+@28
+circle_buf_tb.dut.w_fsm.state[1:0]
+circle_buf_tb.dut.w_bank
+circle_buf_tb.dut.w_full
+circle_buf_tb.dut.w_done
+@200
+-r_fsm
+@28
+circle_buf_tb.dut.r_empty
+circle_buf_tb.dut.r_ready
+@22
+circle_buf_tb.dut.r_addr[5:0]
+circle_buf_tb.dut.r_addr_start[5:0]
+circle_buf_tb.dut.r_addr_end[5:0]
+@28
+circle_buf_tb.dut.r_fsm.state[1:0]
+circle_buf_tb.dut.r_fsm.nxt_state[1:0]
+@29
+circle_buf_tb.dut.swap
+[pattern_trace] 1
+[pattern_trace] 0

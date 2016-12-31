@@ -1,0 +1,41 @@
+[timestart] 370
+[size] 1095 603
+[pos] -1 -1
+*-6.303471 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] busbridge_tb.
+[sst_width] 224
+[signals_width] 158
+[sst_expanded] 1
+[sst_vpaned_height] 154
+@28
+busbridge_tb.fail
+@24
+busbridge_tb.w_cnt[31:0]
+@200
+-inputs
+@24
+busbridge_tb.bn_addr
+@22
+busbridge_tb.bn_data[31:0]
+@28
+busbridge_tb.bn_write
+@200
+-outputs
+@22
+busbridge_tb.bw_addr[15:0]
+busbridge_tb.bw_data[31:0]
+@28
+busbridge_tb.bw_write
+busbridge_tb.fault
+busbridge_tb.complete
+@200
+-internals
+@28
+busbridge_tb.mut.bn_write1
+busbridge_tb.mut.bw_write_r
+busbridge_tb.mut.bw_write_r1
+busbridge_tb.mut.double
+@24
+busbridge_tb.mut.bw_cnt[11:0]
+[pattern_trace] 1
+[pattern_trace] 0

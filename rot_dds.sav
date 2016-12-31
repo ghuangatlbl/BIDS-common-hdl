@@ -1,0 +1,15 @@
+[size] 1000 600
+[pos] -1 -1
+*-6.372678 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] rot_dds_tb.
+@25
+rot_dds_tb.cc[31:0]
+@24
+rot_dds_tb.dut.phase_step_h[19:0]
+rot_dds_tb.dut.phase_step_l[11:0]
+rot_dds_tb.dut.modulo[11:0]
+rot_dds_tb.dut.phase_l[11:0]
+rot_dds_tb.dut.phase_h[19:0]
+@420
+rot_dds_tb.dut.sina[17:0]
+rot_dds_tb.dut.cosa[17:0]

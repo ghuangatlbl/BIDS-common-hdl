@@ -1,0 +1,59 @@
+[timestart] 0
+[size] 1340 657
+[pos] 40 0
+*-12.050527 5590 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] serial_tb.
+[sst_width] 210
+[signals_width] 134
+[sst_expanded] 1
+[sst_vpaned_height] 174
+@28
+serial_tb.clk
+@22
+serial_tb.p[63:0]
+@28
+serial_tb.sync
+serial_tb.sync_out
+@24
+serial_tb.worked[31:0]
+serial_tb.errors[31:0]
+@28
+serial_tb.err_out
+@22
+serial_tb.tx.dr[63:0]
+@28
+serial_tb.bit
+serial_tb.glitch
+@200
+-Tx
+@28
+serial_tb.tx.sync_ok
+serial_tb.tx.start
+serial_tb.tx.one_stuff
+serial_tb.tx.use_crc
+serial_tb.tx.run
+serial_tb.tx.donezero
+@22
+serial_tb.tx.bit_cnt[3:0]
+serial_tb.tx.byte_cnt[3:0]
+serial_tb.tx.crc_guts.sr[15:0]
+@28
+serial_tb.tx.d1
+@200
+-Rx
+@28
+serial_tb.rx.bit
+@22
+serial_tb.rx.zero_cnt[3:0]
+@28
+serial_tb.rx.start
+@22
+serial_tb.rx.bit_cnt[3:0]
+serial_tb.rx.byte_cnt[3:0]
+serial_tb.rx.dr[63:0]
+@28
+serial_tb.rx.run
+serial_tb.rx.done
+serial_tb.rx.crc_zero
+[pattern_trace] 1
+[pattern_trace] 0
